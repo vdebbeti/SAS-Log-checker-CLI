@@ -1,0 +1,6 @@
+1    data example;
+2      put "ERROR: this is quoted source text, not a log diagnostic";
+NOTE: Synthetic example log for SAS Log Checker CLI.
+WARNING: Variable TEST_VALUE is uninitialized.
+ERROR 180-322: Statement is not valid or it is used out of proper order.
+NOTE: The SAS System stopped processing this step because of errors.

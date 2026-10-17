@@ -1,0 +1,12 @@
+Command (run from the repository root):
+python3 sas_log_check.py examples/logs
+
+Expected output on Linux and macOS:
+examples/logs/sample.log:3: NOTE: Synthetic example log for SAS Log Checker CLI.
+examples/logs/sample.log:4: WARNING: Variable TEST_VALUE is uninitialized.
+examples/logs/sample.log:5: ERROR: Statement is not valid or it is used out of proper order.
+examples/logs/sample.log:6: NOTE: The SAS System stopped processing this step because of errors.
+Scanned 1 log file(s): 1 error(s), 1 warning(s), 2 note(s).
+
+Expected exit code: 1
+Windows paths may use backslashes instead of forward slashes.
