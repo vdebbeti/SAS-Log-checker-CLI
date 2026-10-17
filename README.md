@@ -1,4 +1,4 @@
-# SAS Log Checker CLI
+# SAS Log Checker CLI (Command line interface [CMD])
 
 Published: January 29, 2026
 
